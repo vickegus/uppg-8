@@ -3,10 +3,10 @@ html {
 }
 
 p {
-    width: 200px;
-    background-color: red;
+    width: 200px;  /* här bestämmer jag bredden på boxen*/
+    background-color: red; 
     height: 40px;
-    color: red;
+    color: red;                 /* här blir boxen i röd färg             */
     font-size: 20px;
     line-height: 40px;
     text-shadow: 2px 2px 2px black,
@@ -14,7 +14,7 @@ p {
     border: 1px solid rgb(201, 19, 19);
     border-radius: 0.5rem;
     box-shadow: 4px 4px 3px rgb(59, 59, 59),
-        inset 2px 2px 2px rgba(255, 255, 255, 0.75),
+        inset 2px 2px 2px rgba(255, 255, 255, 0.75), /* för att få skugga nere och på höger sida */
         inset -3px -3px 3px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
